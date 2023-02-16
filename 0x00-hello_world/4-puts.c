@@ -1,10 +1,12 @@
 #include<stdio.h>
 
 /*
- * main-prints Write a C program that prints exactly
+ * main-prints
+ * Write a C program that prints exactly
  * "Programming is like building a multilingual puzzle,
  *  followed by a new line.
- *   Return: Always 0 */
+ *   Return: Always 0
+ */
 
 int main(void)
 	{
