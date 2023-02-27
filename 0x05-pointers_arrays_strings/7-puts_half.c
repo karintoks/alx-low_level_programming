@@ -2,8 +2,8 @@
 /**
  * puts_half - prints half of a string.
  * @str: pointer to string.
- *
  * Return: void.
+ * This code is written by karintoks.
  */
 void puts_half(char *str)
 {
