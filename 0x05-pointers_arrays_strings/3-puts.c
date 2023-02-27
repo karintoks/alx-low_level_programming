@@ -14,7 +14,6 @@ void print_rev(char *s)
 	{
 		length++;
 	}
-
 	last = length - 1;
 	for (; last >= 0; last--)
 	{
