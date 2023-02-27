@@ -2,8 +2,8 @@
 /**
  * rev_string - reverse the string.
  * @s: pointer to string.
- *
  * Return: void.
+ * This code is written by karintoks.
  */
 void rev_string(char *s)
 {
