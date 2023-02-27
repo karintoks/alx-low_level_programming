@@ -4,7 +4,7 @@
 /**
  * main - generates random valid passwords
  * Return: 0 (on success).
- *
+ * This code is written by Karintoks.
  */
 int main(void)
 {
