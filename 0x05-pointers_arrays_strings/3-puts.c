@@ -1,23 +1,19 @@
 #include "main.h"
-/**
- * print_rev - prints strin in reverse.
- * @s: pointer to string.
- * Return: void.
- * This code is written by Karintoks cohort 12.
- */
-void print_rev(char *s)
-{
-	int length, last;
 
-	length = 0;
-	while (s[length] != '\0')
+/**
+ * _puts -> prints a string followed by new line to stdout
+ * @str: the string to be printed
+ * Return: Nothing
+ * This code is written by karintoks.
+ */
+
+void _puts(char *str)
+{
+	int i = 0;
+
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		length++;
-	}
-	last = length - 1;
-	for (; last >= 0; last--)
-	{
-		_putchar(s[last]);
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
