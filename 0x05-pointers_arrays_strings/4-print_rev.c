@@ -2,8 +2,8 @@
 /**
  * print_rev - prints strin in reverse.
  * @s: pointer to string.
- *
  * Return: void.
+ * This code is written by Karintoks.
  */
 void print_rev(char *s)
 {
