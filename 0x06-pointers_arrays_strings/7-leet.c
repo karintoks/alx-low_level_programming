@@ -8,7 +8,7 @@
  * Letters l and L are replaced by 1
  * @s: pointer to string.
  * Return: pointer to s.
- * This code is written by karintoks.
+ * This code is written by karintoks..
  */
 char *leet(char *s)
 {
