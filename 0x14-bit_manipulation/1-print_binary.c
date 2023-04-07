@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * This code is written by DONJOR
  * print_binary - prints the binary equivalent of a decimal number
  * @n: number to print in binary
+ * This code is written by DONJOR
  */
 void print_binary(unsigned long int n)
 {
