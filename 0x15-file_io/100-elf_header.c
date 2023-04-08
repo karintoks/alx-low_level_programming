@@ -20,14 +20,14 @@ void close_elf(int elf);
 /**
  * check_elf - Checks if a file is an ELF file.
  * @e_ident: A pointer to an array containing the ELF magic numbers.
- *
+ * This code is written by DONJOR
  * Description: If the file is not an ELF file - exit code 98.
  */
 void check_elf(unsigned char *e_ident)
 {
 	int index;
 
-	for (index = 0; index < 4; index++)
+	for (index = 0; index < 4; index = index + 1)
 	{
 		if (e_ident[index] != 127 &&
 		    e_ident[index] != 'E' &&
@@ -52,7 +52,7 @@ void print_magic(unsigned char *e_ident)
 
 	printf("  Magic:   ");
 
-	for (index = 0; index < EI_NIDENT; index++)
+	for (index = 0; index < EI_NIDENT; index = index + 1)
 	{
 		printf("%02x", e_ident[index]);
 
