@@ -1,18 +1,15 @@
 #include <stdio.h>
-#define UNUSED(x) (void)(x)
 /**
- * main - prints out program name
- * @argc: number of args to be passed
- * @argv: strings passed
- * Return: alway 0
+ * main - Program prints the number of arguments passed into the program.
+ * @argc: Number of command-line arguments.
+ * @argv: Array of strings containing the command-line arguments.
  *
+ * Return: 0 on success.
  */
 int main(int argc, char *argv[])
 {
-	int a;
-
-	a = argc - 1;
-	UNUSED(argv);
-	printf("%i\n", a);
+	(void)argv; /* Indicates that argv is unused*/
+	printf("%d", argc - 1);
+	printf("\n");
 	return (0);
 }
